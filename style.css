@@ -1,3 +1,24 @@
-body {
-  background-color: aqua;
+table {
+  border: 2px solid black;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.con {
+  position: relative;
+}
+
+#edu_img {
+  position: absolute;
+  width: 200px;
+  left: 500px;
+  top: -180px;
 }
