@@ -22,3 +22,12 @@ td {
   left: 500px;
   top: -180px;
 }
+
+#btn {
+  background-color: black;
+  color: aliceblue;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
