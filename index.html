@@ -9,7 +9,7 @@
   </head>
   <body>
     <script src="app.js"></script>
-    <table>
+    <table id="mytable">
       <thead>
         <tr>
           <th>Students name</th>
@@ -47,5 +47,26 @@
     >
       Click
     </button>
+    <div class="form">
+      <p id="head">Student Add Form</p>
+      <form class="fname">
+        <label>Student Name</label>
+        <br />
+        <input type="text" id="typetext" />
+        <br />
+        <br />
+        <label>Student Id </label>
+        <br />
+        <input type="text" id="typeid" />
+        <br />
+        <br />
+        <label>University Point</label>
+        <br />
+        <input type="number" id="typenumber" />
+        <br />
+        <br />
+        <button onclick="myFunction()" id="bt">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
